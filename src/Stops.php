@@ -5,10 +5,10 @@ class Stops {
     const STOP_NAMES_CORRECTIONS = [
         'Gare Eaux-Vives' => 'Gare des Eaux-Vives',
         'Ziplo' => 'ZIPLO',
-        'De stael' => 'De-Staël <small>(dépôt)</small>',
+        'De stael' => 'De-Staël',
         'Palettes - armes' => 'Palettes - Armes',
         'Jar.-Botanique' => 'Jardin Botanique',
-        'Bachet' => 'Bachet-de-Pesay <small>(dépôt)</small>',
+        'Bachet' => 'Bachet-de-Pesay',
         'Palettes bachet' => 'Palettes - Bachet',
         'Onex-cite' => 'Onex-Cité',
         'Lignon' => 'Lignon-Tours',
@@ -27,7 +27,7 @@ class Stops {
         'P bernex' => 'P+R Bernex',
         'Puplinge-mairie' => 'Puplinge-Mairie',
         'Veyrier-Tournet.' => 'Veyrier-Tournettes',
-        'Palettes-Bachet' => 'Palettes - Bachet <small>(dépôt)</small>',
+        'Palettes-Bachet' => 'Palettes - Bachet',
         'Cs la becassiere' => 'CS La Bécassière',
         'Annemasse-gare' => 'Annemasse-Gare',
         'Annemasse gare' => 'Annemasse-G. EXPRESS',
@@ -54,6 +54,7 @@ class Stops {
         'Vernier-Parf.' => 'Vernier-Parfumerie',
         'Les esserts' => 'Les Esserts',
         'Jardin botanique' => 'Jardin Botanique',
+        'Ste-Clotilde' => 'Sainte-Clotilde',
     ];
     
     public static function correct(string $stopName): string
