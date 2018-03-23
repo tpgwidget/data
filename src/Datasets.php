@@ -3,6 +3,7 @@ namespace TPGwidget\Data;
 
 class Datasets {
     private static $datasets = [];
+    private static $reversedDatasets = [];
     
     /**
      * Loads a dataset file
@@ -35,5 +36,17 @@ class Datasets {
         
         self::$datasets[$datasetName] = $content;
         return $content;
+    }
+    
+    public static function loadReversed(string $datasetName): array
+    {
+        // Use the reversed datasets cache
+        if (array_key_exists($datasetName, self::$reversedDatasets)) {
+            return self::$reversedDatasets[$datasetName];
+        }
+        
+        $dataset = array_flip(self::load($datasetName));
+        self::$reversedDatasets[$datasetName] = $dataset;
+        return $dataset;
     }
 }

@@ -3,7 +3,7 @@ namespace TPGwidget\Data;
 
 use PHPUnit\Framework\TestCase;
 
-class DatasetTest extends TestCase
+class DatasetTests extends TestCase
 {
     /** @test */
     public function it_should_load_datasets()
@@ -17,5 +17,12 @@ class DatasetTest extends TestCase
     {
         $this->expectException(\InvalidArgumentException::class);
         $output = Datasets::load('doesntexist');
+    }
+    
+    /** @test */
+    public function it_should_load_reversed_datasets()
+    {
+        $output = Datasets::loadReversed('stopTranslation');
+        $this->assertArrayHasKey('Gare Cornavin', $output);
     }
 }
