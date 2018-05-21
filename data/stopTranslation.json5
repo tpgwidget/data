@@ -36,7 +36,7 @@
     "Ambilly, Acacias-TAC": "Acacias (F)",
     "Vernier, Blandonnet": "Blandonnet",
     "Jussy, La Loure": "La Loure",
-    "Genève, Musée d'ethnographie": "Musée d'ethno.",
+    "Genève, Musée d'ethnographie": "Musée d'ethnographie",
     "Presinge, Bornes": "Ch. des Bornes",
     "Hermance, Villars": "Villars",
     "Bernex, Loëx-Lanance": "Loëx-Lanance",
@@ -239,7 +239,7 @@
     "La Plaine, douane": "La Plaine-Douane",
     "Genève, Théâtre": "Théâtre",
     "Grand-Lancy, Ch. des Palettes": "Ch. des Palettes",
-    "Meyrin, Tour-de-Contrôle": "Tour-de-Contrôle",
+    "Genève-Aéroport, Tour-Contrôle": "Tour-de-Contrôle",
     "Chêne-Bougeries, Ch.de l'Eperon": "Ch. de l'Eperon",
     "Genève, Hôpital": "Hôpital",
     "Versoix, Collège du Léman": "Collège du Léman",
@@ -329,7 +329,7 @@
     "Genève, Acacias": "Acacias",
     "Grand-Saconnex, Le Pommier": "Le Pommier",
     "Ambilly, Millet": "Millet",
-    "Genève, WTC": "WTC",
+    "Genève-Aéroport, WTC": "WTC",
     "La Plaine, gare": "La Plaine-Gare",
     "Bellevue GE, chemin des Clys": "Ch. des Clys",
     "Confignon, Berthet": "Berthet",
@@ -410,7 +410,7 @@
     "Bellevue GE, Valavran": "Valavran",
     "Carouge GE, Gavard": "Gavard",
     "Thônex, Sillons": "Sillons",
-    "Hermance": "Hermance",
+    "Hermance, village": "Hermance-Village",
     "Challex, Gaillardin": "Gaillardin",
     "Genève, Métropole": "Métropole",
     "Confignon, Bains de Cressy": "Bains de Cressy",
@@ -788,5 +788,6 @@
     "Grand-Saconnex, Aéroport-P47": "Aéroport-P47",
     "Meyrin, gare": "Meyrin-Gare",
     "Meyrin, Grand-Puits": "Grand-Puits",
-    "Meyrin, Vieux-Bureau": "Vieux-Bureau"
+    "Meyrin, Vieux-Bureau": "Vieux-Bureau",
+    "Chens-sur-Léman (F)": "Chens-sur-Léman"
 }
