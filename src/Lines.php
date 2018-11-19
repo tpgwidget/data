@@ -39,12 +39,12 @@ class Lines
     }
 
     /**
-     * Load a line from its name
+     * Get a line from its name
      * (A default value will be returned if the line wasn’t found)
      * @param string $lineName Name of the line
      * @return array           Line details
      */
-    public static function load($lineName) {
+    public static function get($lineName) {
         $defaultValue = [
             'name' => strtoupper($lineName),
             'background' => '#FFFFFF',

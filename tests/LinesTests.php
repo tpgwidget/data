@@ -27,7 +27,7 @@ class LinesTests extends TestCase
 
     /** @test */
     public function it_should_load_lines_details() {
-        $line = Lines::load('14');
+        $line = Lines::get('14');
         $this->assertEquals($line['name'], '14');
         $this->assertEquals('#663399', $line['background']);
         $this->assertEquals('#FFFFFF', $line['text']);
@@ -35,7 +35,7 @@ class LinesTests extends TestCase
 
     /** @test */
     public function it_should_return_a_default_result_for_unknown_lines() {
-        $line = Lines::load('XX');
+        $line = Lines::get('XX');
         $this->assertEquals('#FFFFFF', $line['background']);
         $this->assertEquals('#000000', $line['text']);
     }
