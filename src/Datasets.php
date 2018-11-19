@@ -1,7 +1,8 @@
 <?php
 namespace TPGwidget\Data;
 
-class Datasets {
+class Datasets
+{
     private static $datasets = [];
     private static $reversedDatasets = [];
 
