@@ -44,7 +44,7 @@ class Lines
      * @param string $lineName Name of the line
      * @return array           Line details
      */
-    public static function get($lineName) {
+    public static function get(string $lineName) {
         $defaultValue = [
             'name' => strtoupper($lineName),
             'background' => '#FFFFFF',
