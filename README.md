@@ -1,3 +1,5 @@
+<p align="center"><img src="https://user-images.githubusercontent.com/7029582/50564906-82c0bb80-0d29-11e9-92d3-0da634d79624.png" height="256" width="256"></p>
+
 # tpgwidget/data
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
