@@ -56,4 +56,20 @@ class LinesTests extends TestCase
             }
         }
     }
+    
+    /** @test */
+    public function there_are_no_line_duplicates() {
+        $this->assertTrue(true);
+        
+        $lines = Datasets::load('lines');
+        $lineNames = array_map(function($line) {
+            return $line['name'];
+        }, $lines);
+        
+        foreach (array_count_values($lineNames) as $line => $occurrences) {
+            if ($occurrences > 1) {
+                $this->fail("Line $line has $occurrences occurrences instead of one.");
+            }
+        }
+    }
 }
