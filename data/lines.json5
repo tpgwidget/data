@@ -114,5 +114,12 @@
     { "name": "A3", "background": "#61A421", "text": "#FFFFFF" },
     { "name": "A4", "background": "#2499DB", "text": "#FFFFFF" },
     { "name": "A5", "background": "#EB44A8", "text": "#FFFFFF" },
-    { "name": "A6", "background": "#CF3840", "text": "#FFFFFF" }
+    { "name": "A6", "background": "#CF3840", "text": "#FFFFFF" },
+
+    { "name": "L1", "background": "#DF5046", "text": "#FFFFFF" },
+    { "name": "L2", "background": "#1691C3", "text": "#FFFFFF" },
+    { "name": "L3", "background": "#4A9844", "text": "#FFFFFF" },
+    { "name": "L4", "background": "#E08932", "text": "#FFFFFF" },
+    { "name": "L5", "background": "#DA6198", "text": "#FFFFFF" },
+    { "name": "L6", "background": "#4da8c5", "text": "#FFFFFF" }
 ]
