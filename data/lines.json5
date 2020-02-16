@@ -71,6 +71,7 @@
     { "name": "C", "background": "#FF6600", "text": "#FFFFFF" },
     { "name": "C+", "background": "#000000", "text": "#FFFFFF" },
     { "name": "D", "background": "#FF9999", "text": "#000000" },
+    { "name": "DA", "background": "#147374", "text": "#FFFFFF" },
     { "name": "E", "background": "#FF6600", "text": "#FFFFFF" },
     { "name": "F", "background": "#FF9999", "text": "#000000" },
     { "name": "G", "background": "#FF9999", "text": "#000000" },
