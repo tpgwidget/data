@@ -59,8 +59,8 @@
     { "name": "70", "background": "#00A19A", "text": "#FFFFFF" },
     { "name": "71", "background": "#147374", "text": "#FFFFFF" },
     { "name": "72", "background": "#80C3B5", "text": "#000000" },
-    { "name": "73", "background": "#80C3B5", "text": "#000000" },
-    { "name": "74", "background": "#147374", "text": "#FFFFFF" },
+    { "name": "73", "background": "#147374", "text": "#FFFFFF" },
+    { "name": "74", "background": "#80C3B5", "text": "#000000" },
     { "name": "75", "background": "#147374", "text": "#FFFFFF" },
     { "name": "76", "background": "#80C3B5", "text": "#000000" },
     { "name": "77", "background": "#00A19A", "text": "#FFFFFF" },
@@ -115,6 +115,7 @@
     { "name": "A4", "background": "#2499DB", "text": "#FFFFFF" },
     { "name": "A5", "background": "#EB44A8", "text": "#FFFFFF" },
     { "name": "A6", "background": "#CF3840", "text": "#FFFFFF" },
+    { "name": "ADAM", "background": "#FF0000", "text": "#FFFFFF" },
 
     { "name": "L1", "background": "#DF5046", "text": "#FFFFFF" },
     { "name": "L2", "background": "#1691C3", "text": "#FFFFFF" },
