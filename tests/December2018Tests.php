@@ -22,7 +22,7 @@ class December2018Tests extends TestCase
             'Thoiry-Pl. d\'Allemog' => 'Thoiry-<small>Place d\'Allemogne</small>',
             'Thoiry-Pl. en Poulet' => 'Thoiry-<small>Place en Poulet</small>',
             'St-Genis-CERN-Alice' => 'St-Genis-CERN Alice',
-            'St-Genis-Po. France' => 'St-Genis-<small>Porte de France</small>',
+            'St-Genis-Po. France' => '<small>St-Genis-</small>Porte de France',
 
             'Prévessin-Le Joran' => '<small>Prévessin-</small>Collège Le Joran',
             'Prévessin-Möens-Mair' => 'Prévessin-Möens-Mairie',
