@@ -24,9 +24,9 @@ class December2018Tests extends TestCase
             'St-Genis-CERN-Alice' => 'St-Genis-CERN Alice',
             'St-Genis-Po. France' => 'St-Genis-<small>Porte de France</small>',
 
-            'Prévessin-Le Joran' => 'Collège le Joran',
+            'Prévessin-Le Joran' => '<small>Prévessin-</small>Collège Le Joran',
             'Prévessin-Möens-Mair' => 'Prévessin-Möens-Mairie',
-            'Prévessin-Hauts-Magn' => 'Prévessin-<small>Hauts-de-Magny</small>',
+            'Prévessin-Hauts-Magn' => '<small>Prévessin-</small>Hauts-de-Magny',
             'Avenue de vessy' => 'Ferney-<small>Avenue de Vessy</small>',
             'Ferney-Planche-Brûlé' => 'Ferney-Planche-Brûlée',
             'Ferney-Jura (Volt.)' => 'Ferney-Av. du Jura <small>(av. Voltaire)</small>',
