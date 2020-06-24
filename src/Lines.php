@@ -49,6 +49,8 @@ class Lines
             'name' => strtoupper($lineName),
             'background' => '#FFFFFF',
             'text' => '#000000',
+            'shape' => 'tpg',
+            'type' => 'bus',
         ];
 
         $lines = Lines::all();
