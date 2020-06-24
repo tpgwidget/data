@@ -48,6 +48,19 @@ class StopsTests extends TestCase
         $this->assertThat($output, $this->logicalNot($this->stringContains('<b>')));
     }
 
+    /** @test */
+    public function html_tags_should_be_valid()
+    {
+        $stops = Datasets::load('stopNames');
+        foreach ($stops as $correctedName) {
+            $openingTagsCount = substr_count($correctedName, '<small>');
+            $closingTagsCount = substr_count($correctedName, '</small>');
+            $errorMessage = 'Stop “'.$correctedName.'” has '.$openingTagsCount.' opening tags'
+                .' but '.$closingTagsCount.' closing tags.';
+            $this->assertEquals($openingTagsCount, $closingTagsCount, $errorMessage);
+        }
+    }
+
     //==========================================================================
     // Stop translation
     //==========================================================================
