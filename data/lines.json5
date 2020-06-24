@@ -73,6 +73,7 @@
     { "name": "D", "background": "#FF9999", "text": "#000000", "shape": "tpg", "type": "bus" },
     { "name": "DA", "background": "#147374", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
     { "name": "E", "background": "#FF6600", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
+    { "name": "E+", "background": "#000000", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
     { "name": "F", "background": "#FF9999", "text": "#000000", "shape": "tpg", "type": "bus" },
     { "name": "G", "background": "#FF9999", "text": "#000000", "shape": "tpg", "type": "bus" },
     { "name": "G+", "background": "#000000", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
