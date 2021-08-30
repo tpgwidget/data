@@ -8,19 +8,19 @@ class LinesTests extends TestCase
     /** @test */
     public function it_should_load_lines() {
         $lines = Lines::all();
-        $this->assertInternalType('array', $lines);
+        $this->assertIsArray($lines);
         $this->assertArrayHasKey('12', $lines);
     }
 
     /** @test */
     public function it_should_load_lines_by_color() {
         $whiteLines = Lines::withWhiteText();
-        $this->assertInternalType('array', $whiteLines);
+        $this->assertIsArray($whiteLines);
         $this->assertArrayHasKey('47', $whiteLines);
         $this->assertArrayNotHasKey('42', $whiteLines);
 
         $blackLines = Lines::withBlackText();
-        $this->assertInternalType('array', $blackLines);
+        $this->assertIsArray($blackLines);
         $this->assertArrayHasKey('42', $blackLines);
         $this->assertArrayNotHasKey('47', $blackLines);
     }

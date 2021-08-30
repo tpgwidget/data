@@ -9,16 +9,16 @@ class DatasetTests extends TestCase
     public function it_should_load_datasets()
     {
         $output = Datasets::load('stopNames');
-        $this->assertInternalType('array', $output);
+        $this->assertIsArray($output);
     }
-    
+
     /** @test */
     public function it_should_throw_an_error_when_we_load_an_unknown_dataset()
     {
         $this->expectException(\InvalidArgumentException::class);
         $output = Datasets::load('doesntexist');
     }
-    
+
     /** @test */
     public function it_should_load_reversed_datasets()
     {

@@ -1,1 +1,8 @@
 vendor/
+
+### PHPUnit ###
+.phpunit.result.cache
+.phpunit.cache
+/app/phpunit.xml
+/phpunit.xml
+/build/
