@@ -66,6 +66,7 @@
     { "name": "76", "background": "#80C3B5", "text": "#000000", "shape": "tpg", "type": "bus" },
     { "name": "77", "background": "#00A19A", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
     { "name": "78", "background": "#147374", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
+    { "name": "86", "background": "#FF9999", "text": "#000000", "shape": "tpg", "type": "bus" },
 
     { "name": "A", "background": "#FF6600", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
     { "name": "B", "background": "#FF9999", "text": "#000000", "shape": "tpg", "type": "bus" },
