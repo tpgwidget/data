@@ -60,8 +60,8 @@ class LinesTests extends TestCase
             }
 
             // Shape
-            $this->assertContains($line['type'], ['bus', 'tram', 'train']);
-            $this->assertContains($line['shape'], ['tpg', 'noctambus', 'lex']);
+            $this->assertContains($line['type'], ['bus', 'tram', 'train', 'coach']);
+            $this->assertContains($line['shape'], ['tpg', 'noctambus', 'lex', 'alpbus']);
         }
     }
 
