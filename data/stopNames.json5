@@ -98,6 +98,7 @@
     "Chêne-Bourg-Tour": "Chêne-Bourg-Gare-Tour",
     "Parc Montessuit": "Annemasse-<small>Parc Montessuit</small>",
     "Eaux-Vives-Gare": "Genève-Eaux-Vives<small>-Gare</small>",
+    "Eaux-vives": "Genève-Eaux-Vives<small>-Gare</small>",
     "Eaux-Vives/Bloch": "G.-Eaux-Vives<small>-Gare/Bloch</small>",
     "Eaux-Vives/Vadier": "G.-Eaux-Vives<small>-Gare/Vadier</small>",
     "Satigny-C. sportif": "Satigny-Centre sportif",
@@ -266,9 +267,14 @@
 
     "Gd-lancy-place": "Grand-Lancy-Place",
 
-    "Belle-terre": "Belle-Terre-École",
+    "Belle-terre": "Belle-Terre-<small>Place-de-l'Araire</small>",
     "B.-terre-ecole": "Belle-Terre-École",
     "B.-terre-turin": "Belle-Terre-<small>Traité-de-Turin</small>",
+    "B.-Terre-Traité-Turi": "Belle-Terre-<small>Traité-de-Turin</small>",
     "B.-terre-araire": "Belle-Terre-<small>Place-de-l'Araire</small>",
-    "Presinge": "Presinge-Village"
+    "B.-Terre-Pl. Araire": "Belle-Terre-<small>Place-de-l'Araire</small>",
+    "Presinge": "Presinge-Village",
+
+    "Carouge-rondeau": "Carouge-Rondeau"
+
 }
