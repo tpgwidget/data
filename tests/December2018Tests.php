@@ -19,7 +19,6 @@ class December2018Tests extends TestCase
             'Thoiry-Centre-Comm.' => 'Thoiry-<small>Centre commercial</small>',
             'Thoiry' => 'Thoiry-<small>Centre commercial</small>',
 
-            'Thoiry-Pl. d\'Allemog' => 'Thoiry-<small>Place d\'Allemogne</small>',
             'Thoiry-Pl. en Poulet' => 'Thoiry-<small>Place en Poulet</small>',
             'St-Genis-CERN-Alice' => 'St-Genis-CERN Alice',
             'St-Genis-Po. France' => '<small>St-Genis-</small>Porte de France',
