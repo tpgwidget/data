@@ -40,7 +40,7 @@
     { "name": "45", "background": "#80C3B5", "text": "#000000", "shape": "tpg", "type": "bus" },
     { "name": "46", "background": "#00A19A", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
     { "name": "47", "background": "#00A19A", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
-    { "name": "48", "background": "#147374", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
+    { "name": "48", "background": "#80C3B5", "text": "#000000", "shape": "tpg", "type": "bus" },
     { "name": "49", "background": "#00A19A", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
     { "name": "50", "background": "#00A19A", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
     { "name": "51", "background": "#00A19A", "text": "#FFFFFF", "shape": "tpg", "type": "bus" },
@@ -133,7 +133,7 @@
     { "name": "L4", "background": "#E08932", "text": "#FFFFFF", "shape": "lex", "type": "train" },
     { "name": "L5", "background": "#DA6198", "text": "#FFFFFF", "shape": "lex", "type": "train" },
     { "name": "L6", "background": "#4DA8C5", "text": "#FFFFFF", "shape": "lex", "type": "train" },
-    
+
     { "name": "271", "background": "#F1BD2A", "text": "#000000", "shape": "alpbus", "type": "coach" },
     { "name": "272", "background": "#009E90", "text": "#FFFFFF", "shape": "alpbus", "type": "coach" },
     { "name": "274", "background": "#E26D9F", "text": "#FFFFFF", "shape": "alpbus", "type": "coach" }
